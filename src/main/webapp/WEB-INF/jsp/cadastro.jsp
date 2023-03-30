@@ -38,16 +38,16 @@
         </div>
         <div class="form-group">
           <label for="dataInicio">Data de Início</label>
-          <input type="date" class="form-control" id="data_inicio" name="data_inicio" required>
+          <input type="date" class="form-control" id="dataInicio" name="dataInicio" required>
         </div>
 
         <div class="form-group">
           <label for="previsaoTermino">Previsão de Término</label>
-          <input type="date" class="form-control" id="data_previsao_fim" name="data_previsao_fim" required>
+          <input type="date" class="form-control" id="dataPrevisaoFim" name="dataPrevisaoFim" required>
         </div>
         <div class="form-group">
           <label for="previsaoTermino">Data Final</label>
-          <input type="date" class="form-control" id="data_fim" name="data_fim" required>
+          <input type="date" class="form-control" id="dataFim" name="dataFim" required>
         </div>
         <div class="form-group">
           <label for="orcamentoTotal">Orçamento Total R$:</label>
@@ -61,7 +61,8 @@
           <label for="status">Status</label>
           <select class="form-control" id="status" name="status" required>
             <option selected>Selecione uma Opção</option>
-            <option>em analise</option>
+            <option>em analise</
+            option>
             <option>analise realizada</option>
             <option>analise aprovada</option>
             <option>iniciado</option>
