@@ -16,13 +16,13 @@ Postgres
 
 ## End-Points 
 
-Cadastar Projeto -> Post 127.0.0.1:8080/projetos
-Alterar Projeto -> Put 127.0.0.1:8080/projetos/${id}
-Deletar Projeto -> Delete 127.0.0.1:8080/projetos/delete/${id}
+- Cadastar Projeto -> Post 127.0.0.1:8080/projetos
+- Alterar Projeto -> Put 127.0.0.1:8080/projetos/${id}
+- Deletar Projeto -> Delete 127.0.0.1:8080/projetos/delete/${id}
 
-Cadastrar Pessoa -> Post 127.0.0.1:8080/pessoa
-Alterar Pessoa -> Put 127.0.0.1:8080/editar/${id}
-Deletar Pessoa -> Delete -> 127.0.0.1/delete/${id}
+- Cadastrar Pessoa -> Post 127.0.0.1:8080/pessoa
+- Alterar Pessoa -> Put 127.0.0.1:8080/editar/${id}
+- Deletar Pessoa -> Delete -> 127.0.0.1/delete/${id}
 
 
 ## Licença 
