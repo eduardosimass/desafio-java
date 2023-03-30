@@ -46,11 +46,7 @@ public class PessoaController {
     @DeleteMapping(path = {
             "delete/{id}"
     })
-    public ResponseEntity delete(@PathVariable long id) {
-        return repository.findById(id)
-                .map(toRecord -> {
-                    repository.deleteById(id);
-                    return ResponseEntity.ok().build();
-                }).orElse(ResponseEntity.notFound().build());
+    public ResponseEntity delete(@PathVariable Long id) {
+        return pessoaService.deletePessoaPorId(id);
     }
 }
